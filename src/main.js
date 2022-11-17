@@ -12,6 +12,12 @@ Vue.use(PrimeVue)
 import InputText from "primevue/inputtext"
 Vue.component("InputText", InputText)
 
+import Rating from 'primevue/rating'
+Vue.component("Rating", Rating)
+
+import Button from "primevue/button"
+Vue.component("Button", Button)
+
 Vue.config.productionTip = false
 
 new Vue({

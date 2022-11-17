@@ -1,19 +1,25 @@
 <template>
   <div>
     <Header/>
-    <Content/>
+    <Offers/>
+    <Testimony/>
+    <Partner/>
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue"
-import Content from "./components/Content.vue"
+import Offers from "./components/Offers.vue"
+import Testimony from "./components/Testimony.vue"
+import Partner from "./components/Partner.vue"
 
 export default {
   name: 'App',
   components: {
     Header,
-    Content
+    Offers,
+    Testimony,
+    Partner
   }
 }
 </script>

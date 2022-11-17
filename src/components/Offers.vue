@@ -2,7 +2,7 @@
   <!-- Benefit Section -->
   <section class="mt-4 bg-purple p-5">
     <div class="container-fluid">
-      <div class="row mt-2">
+      <div class="row">
         <div class="col-lg-3 col-md-6 text-center mb-3">
           <div style="font-size: 50px" class="text-white mb-2">
             <i class="fa fa-file-pdf"></i>
@@ -36,11 +36,13 @@
       <!-- Quotes -->
       <div class="row mt-4">
         <div class="col-lg-12">
-          <p class="text-white" align="center" style="font-size: 20px;">
-            <i>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sapien ligula, placerat sed libero et, sollicitudin maximus risus. Pellentesque a vestibulum turpis, non volutpat felis. Fusce egestas vehicula risus ac ultrices. Aliquam mollis eu velit ut aliquet. Integer aliquet fringilla dapibus. Pellentesque est augue, tempor sed rutrum et, gravida quis mauris. Fusce iaculis lorem non volutpat molestie. Curabitur ac rutrum quam. Duis vitae laoreet est, at tincidunt lorem. Proin eget dolor eu nisl ornare euismod. Duis venenatis neque eu convallis vestibulum. Quisque rutrum rhoncus elit, eget tempus orci eleifend non."
-            </i>
-          </p>
+          <div class="m-auto" style="width: 75%">
+            <p class="text-white" align="center" style="font-size: 20px;">
+              <i>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sapien ligula, placerat sed libero et, sollicitudin maximus risus. Pellentesque a vestibulum turpis, non volutpat felis. Fusce egestas vehicula risus ac ultrices. Aliquam mollis eu velit ut aliquet. Integer aliquet fringilla dapibus. Pellentesque est augue, tempor sed rutrum et, gravida quis mauris. Fusce iaculis lorem non volutpat molestie. Curabitur ac rutrum quam. Duis vitae laoreet est, at tincidunt lorem. Proin eget dolor eu nisl ornare euismod. Duis venenatis neque eu convallis vestibulum. Quisque rutrum rhoncus elit, eget tempus orci eleifend non."
+              </i>
+            </p>
+          </div>
         </div>
         <div class="col-lg-12">
           <div class="ratio ratio-21x9">
