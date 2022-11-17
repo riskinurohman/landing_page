@@ -9,70 +9,15 @@
           :perPage="4" 
           :autoplay="true"
           :autoplayHoverPause="true">
-          <slide>
+          <slide v-for="(opinion, index) in opinions" :key="index">
             <div class="text-center">
-              <img :src="person1" class="img-carousel"/>
+              <img :src="opinion.image" class="img-carousel"/>
               <div class="p-wrapper m-auto">
                 <p class="mt-3">
-                  <i>Great website for learning programming. Learn programming never be so easy like this.</i>
+                  <i>{{ opinion.opinion }}</i>
                 </p>
               </div>
-              <Rating :stars="5" :readonly="true" :cancel="false" :value="5"/>
-            </div>
-          </slide>
-          <slide>
-            <div class="text-center">
-              <img :src="person2" class="img-carousel"/>
-              <div class="p-wrapper m-auto">
-                <p class="mt-3">
-                  <i>Great website for learning programming. Learn programming never be so easy like this.</i>
-                </p>
-              </div>
-              <Rating :stars="5" :readonly="true" :cancel="false" :value="4"/>
-            </div>
-          </slide>
-          <slide>
-            <div class="text-center">
-              <img :src="person3" class="img-carousel"/>
-              <div class="p-wrapper m-auto">
-                <p class="mt-3">
-                  <i>Great website for learning programming. Learn programming never be so easy like this.</i>
-                </p>
-              </div>
-              <Rating :stars="5" :readonly="true" :cancel="false" :value="5"/>
-            </div>
-          </slide>
-          <slide>
-            <div class="text-center">
-              <img :src="person1" class="img-carousel"/>
-              <div class="p-wrapper m-auto">
-                <p class="mt-3">
-                  <i>Great website for learning programming. Learn programming never be so easy like this.</i>
-                </p>
-              </div>
-              <Rating :stars="5" :readonly="true" :cancel="false" :value="4"/>
-            </div>
-          </slide>
-          <slide>
-            <div class="text-center">
-              <img :src="person2" class="img-carousel"/>
-              <div class="p-wrapper m-auto">
-                <p class="mt-3">
-                  <i>Great website for learning programming. Learn programming never be so easy like this.</i>
-                </p>
-              </div>
-              <Rating :stars="5" :readonly="true" :cancel="false" :value="4"/>
-            </div>
-          </slide>
-          <slide>
-            <div class="text-center">
-              <img :src="person3" class="img-carousel"/>
-              <div class="p-wrapper m-auto">
-                <p class="mt-3">
-                  <i>Great website for learning programming. Learn programming never be so easy like this.</i>
-                </p>
-              </div>
-              <Rating :stars="5" :readonly="true" :cancel="false" :value="4"/>
+              <Rating :stars="5" :readonly="true" :cancel="false" :value="opinion.star"/>
             </div>
           </slide>
         </carousel>
@@ -98,10 +43,8 @@
 </template>
 <script>
 import { Carousel, Slide } from 'vue-carousel'
-import Person1 from "../assets/images/person1.jpg"
-import Person2 from "../assets/images/person2.jpg"
-import Person3 from "../assets/images/person3.jpg"
 import FreeIllustration from "../assets/images/money-investment.svg"
+import Opinions from "../json/opinions.json"
 
 export default {
   name: 'TestimonyPage',
@@ -111,10 +54,8 @@ export default {
   },
   data: function() {
     return {
-      person1: Person1,
-      person2: Person2,
-      person3: Person3,
-      freeIllustration: FreeIllustration
+      freeIllustration: FreeIllustration,
+      opinions: Opinions
     }
   }
 }

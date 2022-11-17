@@ -3,46 +3,10 @@
     <div class="container-fluid">
       <h1 class="text-white" style="font-weight: 700" align="center">OUR BELOVED PARTNER <i class="fa fa-heart"></i></h1>
       <div class="row mt-5 g-0">
-        <div class="col-lg-3 col-md-6">
+        <div :class="partner.colSize" v-for="(partner, index) in partners" :key="index">
           <div align="center" class="text-white">
-            <div class="img-container bg-light" :style="`background-image: url(${google})`"></div>
-            <h5 class="mt-3">Google</h5>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div align="center" class="text-white">
-            <div class="img-container bg-light" :style="`background-image: url(${github})`"></div>
-            <h5 class="mt-3">Github</h5>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div align="center" class="text-white">
-            <div class="img-container bg-light" :style="`background-image: url(${meta})`"></div>
-            <h5 class="mt-3">Meta</h5>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div align="center" class="text-white">
-            <div class="img-container bg-light" :style="`background-image: url(${microsoft})`"></div>
-            <h5 class="mt-3">Microsoft</h5>
-          </div>
-        </div>
-        <div class="col-lg-4 mt-5 col-md-6">
-          <div align="center" class="text-white">
-            <div class="img-container bg-light" :style="`background-image: url(${hackerrank})`"></div>
-            <h5 class="mt-3">Hacker Rank</h5>
-          </div>
-        </div>
-        <div class="col-lg-4 mt-5 col-md-6">
-          <div align="center" class="text-white">
-            <div class="img-container bg-light" :style="`background-image: url(${apple})`"></div>
-            <h5 class="mt-3">Apple</h5>
-          </div>
-        </div>
-        <div class="col-lg-4 mt-5 col-md-6">
-          <div align="center" class="text-white">
-            <div class="img-container bg-light" :style="`background-image: url(${linux})`"></div>
-            <h5 class="mt-3">Linux</h5>
+            <div class="img-container bg-light" :style="`background-image: url(${partner.image})`"></div>
+            <h5 class="mt-3">{{ partner.name }}</h5>
           </div>
         </div>
       </div>
@@ -50,25 +14,13 @@
   </section>
 </template>
 <script>
-import Google from "../assets/images/google.png"
-import Github from "../assets/images/github.png"
-import Meta from "../assets/images/meta.png"
-import Microsoft from "../assets/images/microsoft.png"
-import Hackerrank from "../assets/images/hackerrank.png"
-import Apple from "../assets/images/apple.png"
-import Linux from "../assets/images/linux.png"
+import Partners from "../json/partners.json"
 
 export default {
   name: 'PartnerPage',
   data: function() {
     return {
-      google: Google,
-      github: Github,
-      meta: Meta,
-      microsoft: Microsoft,
-      hackerrank: Hackerrank,
-      apple: Apple,
-      linux: Linux
+      partners: Partners
     }
   }
 }

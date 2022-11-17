@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Google",
+        "image": "/assets/images/google.png",
+        "colSize": "col-lg-3 col-md-6"
+    },
+    {
+        "name": "Meta",
+        "image": "/assets/images/meta.png",
+        "colSize": "col-lg-3 col-md-6"
+    },
+    {
+        "name": "Microsoft",
+        "image": "/assets/images/microsoft.png",
+        "colSize": "col-lg-3 col-md-6"
+    },
+    {
+        "name": "Hacker Rank",
+        "image": "/assets/images/hackerrank.png",
+        "colSize": "col-lg-3 col-md-6"
+    },
+    {
+        "name": "Github",
+        "image": "/assets/images/github.png",
+        "colSize": "col-lg-4 col-md-6"
+    },
+    {
+        "name": "Apple",
+        "image": "/assets/images/apple.png",
+        "colSize": "col-lg-4 col-md-6"
+    },
+    {
+        "name": "Linux",
+        "image": "/assets/images/apple.png",
+        "colSize": "col-lg-4 col-md-6"
+    }
+]

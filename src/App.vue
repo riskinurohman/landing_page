@@ -4,6 +4,7 @@
     <Offers/>
     <Testimony/>
     <Partner/>
+    <Footer/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from "./components/Header.vue"
 import Offers from "./components/Offers.vue"
 import Testimony from "./components/Testimony.vue"
 import Partner from "./components/Partner.vue"
+import Footer from "./components/Footer.vue"
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     Header,
     Offers,
     Testimony,
-    Partner
+    Partner,
+    Footer
   }
 }
 </script>

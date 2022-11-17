@@ -1,0 +1,32 @@
+[
+    {
+        "opinion": "Great website for learning programming. Learn programming never be so easy like this.",
+        "image": "/assets/images/person1.jpg",
+        "star": "5"
+    },
+    {
+        "opinion": "Great website for learning programming. Learn programming never be so easy like this.",
+        "image": "/assets/images/person2.jpg",
+        "star": "4"
+    },
+    {
+        "opinion": "Great website for learning programming. Learn programming never be so easy like this.",
+        "image": "/assets/images/person3.jpg",
+        "star": "4"
+    },
+    {
+        "opinion": "Great website for learning programming. Learn programming never be so easy like this.",
+        "image": "/assets/images/person1.jpg",
+        "star": "5"
+    },
+    {
+        "opinion": "Great website for learning programming. Learn programming never be so easy like this.",
+        "image": "/assets/images/person2.jpg",
+        "star": "5"
+    },
+    {
+        "opinion": "Great website for learning programming. Learn programming never be so easy like this.",
+        "image": "/assets/images/person3.jpg",
+        "star": "4"
+    }
+]
