@@ -7,29 +7,29 @@
           <div style="font-size: 50px" class="text-white mb-2">
             <i class="fa fa-file-pdf"></i>
           </div>
-          <h2 style="font-weight: 700" class="text-white">Free Module</h2>
+          <h4 style="font-weight: 700" class="text-white">Free Module</h4>
           <span class="text-white">Get your free module after learning session</span>
         </div>
         <div class="col-lg-3 col-md-6 text-center mb-3">
           <div style="font-size: 50px" class="text-white mb-2">
             <i class="fas fa-clock"></i>
           </div>
-          <h2 style="font-weight: 700" class="text-white">Free Consultation</h2>
+          <h4 style="font-weight: 700" class="text-white">Free Consultation</h4>
           <span class="text-white">Contact your favourite teacher 24/7 anytime</span>
         </div>
         <div class="col-lg-3 col-md-6 text-center text-white mb-3">
           <div style="font-size: 50px" class="mb-2">
             <i class="fas fa-video"></i>
           </div>
-          <h2 style="font-weight: 700">Download Video</h2>
+          <h4 style="font-weight: 700">Download Video Anytime</h4>
           <span>Download your lesson video anywhere and anytime</span>
         </div>
         <div class="col-lg-3 col-md-6 text-center text-white mb-3">
           <div style="font-size: 50px" class="mb-2">
-            <i class="fas fa-clock"></i>
+            <i class="fas fa-user-tie"></i>
           </div>
-          <h2 style="font-weight: 700">Free Consultation</h2>
-          <span>Contact your favourite teacher 24/7 anytime</span>
+          <h4 style="font-weight: 700">Experienced Instructor</h4>
+          <span>We have experienced instructor to guide you from zero to hero</span>
         </div>
       </div>
       

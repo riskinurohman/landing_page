@@ -31,7 +31,7 @@
     },
     {
         "name": "Linux",
-        "image": "/assets/images/apple.png",
+        "image": "/assets/images/linux.png",
         "colSize": "col-lg-4 col-md-6"
     }
 ]
